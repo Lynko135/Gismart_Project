@@ -1,0 +1,109 @@
+@media all and (max-width:1550px) {
+    .backimg {
+        height: 750px;
+    }
+    .header h1 {
+        width: auto;
+        margin-left: 129px;
+    }
+    .prElem > div:nth-of-type(1) {
+        width: 569px;
+        height: 550px;
+        margin-bottom: 30px;
+    }
+    .all, .apps, .games {
+        height: 775px;
+    }
+    #domino, #goal, #sound, #zen, #hello, #piano {
+        background-size: 140%;
+    }
+    #domino:hover, #goal:hover, #sound:hover, #zen:hover, #hello:hover, #piano:hover {
+        background-size: 150%;
+    }
+}
+@media all and (max-width:1260px) {
+    #logo {
+        display: none;
+    }
+    .header h1 {
+        height: 80px;
+    }
+    .prElem {
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .ready p {
+        width: 700px;
+    }
+    .ready, #shadow {
+        height: 475px;
+    }
+    .ready h2 {
+        padding-top: 123px;
+    }
+        
+}
+@media all and (max-width:768px) {
+    .header h1 {
+        height: 80px;
+        width: 270px;
+        margin: auto;
+        text-align: center;
+    }
+    .header .containerMy > div:nth-of-type(3), .header .containerMy > p {
+        width: 270px;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .ourProducts ul {
+        width: 280px;
+        justify-content: space-around;
+    }
+    .ourProducts ul li input {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+    .ourProducts h2 {
+        padding-top: 60px;
+        margin-bottom: 40px;
+    }
+    .prElem {
+        width: 270px;
+        margin-bottom: 50px;
+    }
+    .prElem > div:nth-of-type(1) {
+        width: 270px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .ourProducts h5 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #more {
+        left: calc(50% - 80px);
+    }
+    #more input, .ready input {
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .ready p {
+        width: 270px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+    .ready, #shadow {
+        height: 461px;
+    }
+    .ready h2 {
+        padding-top: 60px;
+    }
+    .prElem > div:nth-of-type(2) > a >:nth-of-type(1) {
+        margin-right: 0px;
+    }
+}

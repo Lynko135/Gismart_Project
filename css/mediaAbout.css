@@ -1,0 +1,372 @@
+@media all and (max-width:1550px) {
+    h1 {
+        margin-top: 100px;
+    }
+    .header p {
+        margin-top: 0;
+    }
+    h2 {
+        font-size: 56px;
+    }
+    .line img {
+        width: 278px;
+        height: 263px;
+    }
+    .line h5 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .line > div {
+        padding-top: 0px!important;
+    }
+    #smile {
+        width: 270px;
+        position: absolute;
+        left: 60px;
+        top: 30px;
+    }
+    #cloud {
+        right: 315px;
+        top: 471px;
+    }
+    #cloud, #cloud2, #cloud3 {
+        width: 350px;
+        position: absolute;
+    }
+    .block {
+        width: 436px;
+    }
+    .withIcons p {
+        padding-right: 10px;
+    }
+    .right > div:nth-of-type(5) > img {
+        position: absolute;
+        left: 20%;
+        z-index: -1;
+    }
+    .left > div:nth-of-type(5) > img {
+        width: 450px;
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 0;
+    }
+    .right > div:nth-of-type(2) {
+        background: url(../img/rightPiano.png) no-repeat bottom;
+        height: 500px;
+        width: 582px;
+        background-size: contain;
+    }
+}
+@media all and (max-width:1260px) {
+    .header p {
+        margin-top: 20px;
+    }
+    .menu li a {
+        color: white;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .aboutGis h2 {
+        padding-top: 60px;
+        margin-bottom: 45px;
+    }
+    .line img {
+        width: 335px;
+        height: 312px;
+    }
+    .line > div {
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .line {
+        flex-wrap: wrap;
+        height: 362px;
+    }
+    .line:nth-of-type(1) {
+        margin-bottom: 270px;
+    }
+    .line:nth-of-type(2) {
+        flex-wrap: wrap-reverse;
+    }
+    .line h5, .line p {
+        padding-top: 0;
+    }
+    .aboutGis {
+        height: 1700px;
+    }
+    .timeLine h3 {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    #smile {
+        width: 210px;}
+    .left, .right {
+        flex-wrap: nowrap;
+    }
+    .block {
+        width: 668px!important;
+    }
+    .left .block {
+        margin-right: -400px;
+    }
+    .right .block {
+        margin-left: -400px;
+    }
+    .right > div:nth-of-type(2) {
+        height: 200px;
+        background-size: contain;
+        margin: 30px 0 0 -10px;
+        width: 300px;
+    }
+    .right > div:nth-of-type(3) {
+        margin-top: 330px;
+    }
+    .left > div:nth-of-type(3) {
+        margin-top: 500px;
+    }
+    #cloud, #cloud2, #cloud3 {
+        display: none;
+    }
+    .right > div:nth-of-type(4) {
+        height: 730px;
+        background: url(../img/finish.png) no-repeat bottom left;
+        margin-left: 0;
+        background-size: contain;
+        margin: 400px 20px 0 -200px;
+    }
+    .right > div:nth-of-type(5) > img {
+        display: none;
+    }
+    .left > div:nth-of-type(4) {
+        margin-top: 60px;
+    }
+    .right > div:nth-of-type(5) {
+        position: relative;
+        margin-top: -50px;
+        background: url(../img/device.png) no-repeat right bottom;
+        background-size: 180px auto;
+    }
+    .left > div:nth-of-type(5) {
+        margin-top: 848px;
+        margin-left: 60px;
+        padding-top: 372px;
+    }
+    #time > div:nth-of-type(4) {
+        top: 4463px;
+    }
+    #smile1 {
+        width: 300px;
+        position: absolute;
+        left: 122px;
+        top: -341px;
+    }
+    #timeBottom {
+        margin: 0;
+    }
+}
+@media all and (max-width:768px) {
+    .aboutGis h2 {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .line img {
+        width: 280px;
+        height: 267px;
+        margin-bottom: 10px;
+    }
+    .line h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .aboutGis {
+        height: 2900px;
+    }
+    .line {
+        height: auto;
+    }
+    .line:nth-of-type(1) {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+    .line p {
+        margin-bottom: 20px;
+    }
+    .line:nth-of-type(1) {
+        margin-bottom: 0;
+    }
+    .line:nth-of-type(2) {
+        flex-wrap: wrap;
+    }
+    .line > div {
+        padding: 5px!important;
+    }
+    .line {
+        flex-wrap: wrap-reverse;
+    }
+    #smile {
+        width: 120px;
+        position: absolute;
+        left: 70px;
+        top: -30px;
+    }
+    .timeLine h2 {
+        margin-bottom: 40px;
+    }
+    .block {
+        width: 270px!important;
+        height: auto;
+    }
+    .withIcons img {
+        width: 70px;
+        height: 70px;
+        float: none;
+    }
+    .withIcons p, h6 {
+        margin-left: 0;
+    }
+    .timeLine > div > div:nth-of-type(2) {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .withIcons p, h6 {
+        margin-left: 0;
+        text-align: center;
+    }
+    #time > div:nth-of-type(1) {
+        background: url(../img/play.png) center no-repeat;
+        height: 287px;
+        width: 257px;
+        position: absolute;
+        background-size: contain;
+    }
+    .center, .withIcons p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h6 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .right > div:nth-of-type(2) {
+        display: none;
+    }
+    .right > div:nth-of-type(1), .left > div:nth-of-type(1) {
+        height: 200px;
+    }
+    .left > div, .right > div {
+        position: relative;
+        padding-right: 0;
+    }
+    .left > div:nth-of-type(2) {
+        padding-top: 260px;
+    }
+    .left .year {
+        position: absolute;
+        left: 13px;
+        top: 30px;
+    }
+    .left .year > img, .right .year > img {
+        position: absolute;
+        left: 108px;
+        top: 112px;
+    }
+    .left .block {
+        margin-right: -140px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .year {
+        background: linear-gradient(0deg, rgba(152,58,58,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(152,58,58,0) 100%);
+    }
+    .right .year {
+        position: absolute;
+        left: -128px;
+        top: -240px;
+    }
+    .right .block {
+        margin-left: -200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right > div:nth-of-type(2) {
+        padding-top: 300px;
+    }
+    .right > div:nth-of-type(3) {
+        margin-top: 1020px;
+    }
+    .left > div:nth-of-type(3) {
+        position: absolute;
+        top: 1200px;
+        right: 0px;
+        height: 300px;
+        width: 200px;
+        background-size: contain;
+        margin-top: 494px;
+        right: 15px;
+    }
+    .left > div:nth-of-type(4) {
+        margin-top: 1270px;
+    }
+    .left > div:nth-of-type(4) > .year{
+        top: -200px;
+    }
+    .right > div:nth-of-type(4) {
+        margin: 260px 20px 0 -80px;
+        width: 200px;
+    }
+    .left > div:nth-of-type(5) {
+        margin-top: 1030px;
+        margin-left: 0;
+        padding-top: 320px;
+    }
+    #icon1, #icon2, #icon3, #icon4 {
+        display: none;
+    }
+    .left > div:nth-of-type(5) {
+        margin-top: 830px;
+        margin-left: 0;
+        padding-top: 320px;
+    }
+    .left > div:nth-of-type(5) > img {
+        width: 190px;
+        position: absolute;
+        z-index: -1;
+        top: 45px;
+        left: 0;
+    }
+    .left > div:nth-of-type(5) > .year {
+        top: 130px;
+    }
+    #smile1 {
+        display: none;
+    }
+    #time > div:nth-of-type(4) {
+        top: 4029px;
+    }
+    #timeBottom {
+        margin: 0;
+        background-size: contain;
+        height: 340px;
+    }
+    .timeLine {
+        height: 5629px;
+    }
+}

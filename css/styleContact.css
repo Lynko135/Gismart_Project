@@ -1,0 +1,165 @@
+.header {
+    background: url(../img/contactBack.jpg) no-repeat center;
+    background-size: cover;
+}
+h1 {
+    margin-top: 265px;
+}
+.locations {
+    height: 823px;
+    margin-top: 116px;
+    padding-top: 40px;
+}
+.locations h2 {
+    margin-bottom: 100px;
+}
+.london {
+    background-image: url(../img/London.jpg);
+}
+.minsk {
+    background-image: url(../img/Minsk.jpg);
+}
+.beijing {
+    background-image: url(../img/Beijing.png);
+}
+.kiev {
+    background-image: url(../img/Kiev.jpg);
+}
+.place {
+    height: 260px;
+    width: 358px;
+    background: cover no-repeat;
+    position: relative;
+    transition: .5s;
+}
+.place > div {
+    position: absolute;
+    top: 191px;
+    width: 328px;
+    height: 140px;
+    background-color: white;
+    padding: 16px 30px 0 10px;
+}
+.place > div > div {
+    margin-bottom: 12px;
+}
+.place h5 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+    margin-left: 25px;
+}
+.place address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+.place:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.contactForm {
+    height: 992px;
+    background: #FAFAFA;
+    padding-top: 140px;
+}
+#cloud {
+    position: absolute;
+    right: 300px;
+    top: 1686px;
+    width: 404px;
+}
+.contactForm p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin: 25px 0 80px 0;
+}
+.contactForm form {
+    position: relative;
+    width: 542px;
+    margin: auto;
+    flex-direction: column;
+}
+form > img {
+    position: absolute;
+}
+form > img:nth-of-type(1) {
+    width: 210px;
+    left: 785px;
+    top: 166px;
+}
+form > img:nth-of-type(2) {
+    width: 225px;
+    left: -451px ;
+    top: -47px;
+}
+textarea {
+    width: 100%;
+}
+input[type|="text"], input[type|="email"], textarea, select {
+    border: 1px solid rgba(51, 51, 51, .4);
+    border-radius: 2px;
+}
+input[type|="text"], input[type|="email"] {
+    width: 48%;
+    height: 47px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 17px;
+}
+input[type|="text"]:focus, input[type|="email"]:focus, textarea:focus{
+    font-weight: 700;
+}
+form > div {
+    margin-bottom: 20px;
+}
+select {
+    padding-left: 17px;
+    height: 47px;
+    margin-bottom: 20px;
+}
+textarea {
+    padding: 14px 16px 14px 16px;
+    height: 204px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.main_input_file {
+	display: none;
+}
+.upload_form div {
+	width: 143px;
+	height: 20px;
+	color: #4187C7;
+	font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+.upload_form div:hover, .upload_form img:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+#f_name {
+	background: transparent;
+	border: 0;
+	display: inline-block;
+	height: 20px;
+	color: #4187C7;
+	font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    margin-left: -40px;
+}
+input[type|="submit"] {
+    height: 52px;
+}

@@ -1,0 +1,268 @@
+@media all and (max-width:1550px) {
+    .containerMy {
+        width: 1200px;
+    }
+    h1 {
+        font-size: 72px;
+        line-height: 88px;
+        width: 1200px;
+    }
+    h2 {
+        font-size: 56px;
+        line-height: 72px;
+        letter-spacing: -0.02em;
+    }
+    #open {
+        display: none;
+    }
+    .header {
+        height: 750px;
+    }
+    .achievements {
+        height: 989px;
+    }
+    .achievements h2 {
+        margin-bottom: 70px;
+        padding-top: 120px;
+    }
+    .achievements .containerMy .jcsb:nth-of-type(1) {
+        padding: 0 61px 0 61px;
+    }
+    .achievements .containerMy .jcsb:nth-of-type(2) {
+        padding: 0 0 0 0;
+    }
+    .discover {
+        height: 396px;
+        padding-top: 100px;
+    }
+    .discover input {
+        width: 357px;
+        height: 64px;
+    }
+    .footer {
+        height: 362px;
+    }
+    .footer ul:nth-of-type(1){
+        width: 585px;
+    }
+    #footerlogo {
+        padding-bottom: 40px;
+    }
+    footer ul:nth-of-type(2) {
+        width: 258px;
+    }
+    .footer ul:nth-of-type(2) > li:nth-of-type(1) {
+        margin-right: 12px;
+    }
+    
+}
+
+@media all and (max-width:1260px) {
+    .containerMy {
+        width: 728px;
+    }
+    #open {
+        display: block;
+    }
+    .header h1 {
+        height: 164px;
+        font-size: 48px;
+        line-height: 52px;
+        width: 719px;
+        margin-top: 50px;
+        
+    }
+    #nimbers {
+        transform: scale(.5);
+        margin-left: 35px;
+    }
+    h2 {
+        padding-top: 60px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .header p, .downloads p, .reviews p {
+        font-size: 16px;
+        margin-top: 10px;
+        width: 624px;
+        line-height: 26px;
+    }
+    .header {
+        height: 500px;
+    }
+    .menu > a > div {
+        width: 80px;
+        height: 16px;
+        background-size: 80px 16px;
+    }
+    #menu{
+        position: absolute;
+        right: -1000px;
+        display: none;
+        width: 590px;
+        top: 0px;
+        background-color: rgb(22, 22, 22);
+        justify-content: space-around;
+        height: 80px;
+        border-radius: 20px;
+        padding-top: 30px;
+    }
+    .item:nth-child(1){
+        margin-top: 0;
+    }
+    #menu li a {
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .subMenu {
+        background-color: rgb(22, 22, 22);
+        border-radius: 20px;
+        width: 100px;
+        padding-left: 10px;
+    }
+    .circle {
+        transform: scale(.5);
+        justify-content: flex-start;
+    }
+    .achievements .containerMy .jcsb:nth-of-type(1) {
+        padding: 0px;
+        margin-left: -30px;
+        height: 124px;
+    }
+    .achievements {
+        height: 527px;
+    }
+    .achievements h2 {
+        margin-bottom: 30px;
+        padding-top: 60px;
+    }
+    #nimbers {
+        transform: scale(.5);
+    }
+    #nimbersAnim {
+        margin-left: 20px;
+        padding-top: 90px;
+        height: 124px;
+        transition: .4s;
+    }
+    .reviews img:nth-of-type(1), .reviews img:nth-of-type(2) {
+        display: none;
+    }
+    .discover {
+        height: 296px;
+        padding-top: 0px;
+    }
+    .discover input {
+        width: 357px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .footer {
+        height: 358px;
+        padding-top: 60px;
+    }
+    .down {
+        flex-flow: column wrap;
+    }
+    .down > * {
+        margin-bottom: 15px;
+    }
+    .down {
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width:768px) {
+    .containerMy {
+        width: 280px;
+    }
+    .header h1 {
+        font-size: 32px;
+        line-height: 46px;
+        letter-spacing: -0.01em;
+        width: 280px;
+        margin-top: 43px;
+    }
+    .header {
+        height: 540px;
+    }
+    .header p, .downloads p, .reviews p {
+        font-size: 16px;
+        margin-top: 30px;
+        width: 280px;
+        line-height: 24px;
+    }
+    #open, #close {
+        top: 35px;
+    }
+    #menu {
+        width: 280px;
+        height: 470px;
+        flex-direction: column;
+        align-items: center;
+        top: 35px;
+    }
+    .subMenu {
+        padding-left: 50px;
+    }
+    .opp {
+        display: inline;
+    }
+    .count {
+        top: 67px;
+        left: 0px;
+    }
+    .smallCircleText {
+        top: 160px;
+        left: -10px;
+    }
+    .circle {
+        height: 164px;
+    }
+    .achievements {
+        height: 1390px;
+    }
+    #nimbersAnim {
+        display: inline;
+    }
+    #nimbers {
+        height: 221px;
+        transform: scale(.7);
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+        transform: scale(.7);
+    }
+    .owl-carousel .owl-nav button.owl-prev:active, .owl-carousel .owl-nav button.owl-next:active {
+        transform: scale(.5);
+    }
+    .discover h2 {
+        margin-bottom: 48px;
+        width: 225px;
+    }
+    .discover input {
+        width: 180px;
+        font-size: 14px;
+    }
+    .footer {
+        height: 490px;
+        padding-top: 50px;
+    }
+    #footerlogo {
+        background-size: 80px 16px;
+    }
+    .down {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer ul:nth-of-type(1) {
+        width: 280px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer ul:nth-of-type(1) > li {
+        margin-bottom: 20px;
+    }
+}   
+    

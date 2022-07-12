@@ -1,0 +1,344 @@
+@media all and (max-width:1550px) {
+    #cloud {
+        position: absolute;
+        width: 365px;
+        top: 568px;
+        left: 174px;
+    }
+    .phonesPic > img:nth-of-type(1) {
+        width: 430px;
+        margin-bottom: 41px;
+    }
+    .makeYour {
+        height: 900px;
+    }
+    .stages > div {
+        width: 277px;
+    }
+    .stages h5 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .lookingFor > #cloud {
+        left: 130px;
+        top: 6000px;
+    }
+    .lookingFor img:nth-of-type(2) {
+        right: 50px;
+        top: 6867px;
+    }
+    .logos > div {
+        background-size: 90%!important;
+    }
+}
+@media all and (max-width:1260px) {
+    .success {
+        padding-top: 0;
+        height: 1030px;
+    }
+    #cloud {
+        width: 200px;
+        top: 427px;
+    }
+    .item {
+        padding-right: 0;
+    }
+    .item > div {
+        width: 300px;
+        height: 700px;
+        float: none;
+    }
+    #goal, #domino {
+        background-size: contain;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+        margin: 0 50px 0 50px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -46px;
+        margin-left: 0px;
+    }
+    .success .containerMy {
+        overflow: hidden;
+    }
+    .owl-dots {
+        top: 668px;
+        left: calc(50% - 50px);
+    }
+    #nimbers {
+        margin-left: -30px;
+    }
+    .item span {
+        font-size: 20px;
+        margin-right: 45px;
+    }
+    .makeYour {
+        padding-top: 60px;
+        height: 967px;
+    }
+    .makeYour h2, .makeYour p {
+        text-align: center;
+        width: 517px;
+    }
+    .makeYour .containerMy {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .need {
+        justify-content: center;
+    }
+    .phonesPic {
+        width: auto;
+    }
+    .phonesPic > img:nth-of-type(1) {
+        width: 288px;
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+    .expertise {
+        height: 716px;
+        padding-top: 0;
+    }
+    .stages > div {
+        width: 205px;
+    }
+    .stages p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .stages > div > img {
+        width: 80px;
+    }
+    .stages {
+        padding: 0 20px 0 20px;
+        margin-top: 40px;
+    }
+    .invest1 {
+        background-size: contain;
+    }
+    .invest2 {
+        background-size: 40%;
+    }
+    .invest, .invest1, .invest2 {
+        height: 475px;
+    }
+    .invest h2 {
+        padding-top: 120px;
+    }
+    .invest p, .lookingFor p, .partner p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 511px;
+        margin: auto;
+    }
+    .lookingFor h2 {
+        padding-top: 0;
+    }
+    .mobiles > div:nth-of-type(1) {
+        top: -430px;
+    }
+    .waiting h2 {
+        padding-top: 0;
+    }
+    form > img:nth-of-type(1) {
+        width: 190px;
+        right: 0;
+        top: -290px;
+    }
+    form > img:nth-of-type(2) {
+        width: 279px;
+        left: 0;
+        top: -385px;
+    }
+    .lookingFor > #cloud {
+        left: 440px;
+        top: 5722px;
+    }
+    .waiting {
+        height: 590px;
+    }
+    .partner h2 {
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    .partner {
+        height: 310px;
+    }
+    .lookingFor img:nth-of-type(2) {
+        display: none;
+    }
+}
+@media all and (max-width:768px) {
+    #cloud {
+        display: none;
+    }
+    .header p {
+        margin-bottom: 30px;
+    }
+    #submit > input {
+        width: 150px;
+        height: 59px;
+        font-size: 12px;
+    }
+    #goal, #domino {
+        background: none;
+    }
+    .item > div {
+        width: 275px;
+        height: 700px;
+    }
+    .item > div > div:nth-of-type(1) {
+        width: 110px;
+        padding-left: 14px;
+    }
+    .getAppOrGoogle {
+        margin-right: 0;
+    }
+    .item > div {
+        text-align: center;
+    }
+    .item {
+        width: 270px;
+    }
+    .item span {
+        margin-right: 10px;
+    }
+    .item p {
+        font-size: 15px;
+    }
+    .item > div > div:nth-of-type(1) {
+        padding-left: calc(50% - 50px);
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+        margin: 0 25px 0 25px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 5px 10px;
+    }
+    .owl-dots {
+        left: calc(50% - 30px);
+    }
+    .success {
+        height: 960px;
+    }
+    .achievements .containerMy .jcsb:nth-of-type(1) {
+        padding: 0px;
+        margin-left: 0;
+        height: 124px;
+        display: block;
+    }
+    .achievements .containerMy .jcsb:nth-of-type(1) {
+        height: 490px;
+    }
+    #nimbers, #nimbersAnim {
+        margin-left: 0 auto;
+    }
+    #nimbers p {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .makeYour h2 {
+        text-align: center;
+        width: 280px;
+        padding: 0;
+    }
+    .makeYour p {
+        width: 270px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .need {
+        flex-wrap: wrap;
+    }
+    .branches:nth-of-type(1) {
+        margin: 0 0 20px 0;
+    }
+    .phonesPic > img:nth-of-type(1) {
+        width: 200px;
+    }
+    .stages > div {
+        width: 280px;
+        padding: 0 5px 0 5px;
+    }
+    .stages h5 {
+        margin: 5px 0 10px 0;
+    }
+    .stages p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .stages > div {
+        margin-bottom: 25px;
+    }
+    .expertise {
+        height: 1500px;
+    }
+    .invest h2 {
+        padding-top: 60px;
+    }
+    .invest, .invest1, .invest2 {
+        height: 445px;
+    }
+    .invest p, .lookingFor p, .partner p {
+        width: 280px;
+        padding: 5px;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .lookingFor {
+        height: 703px;
+        padding-top: 100px;
+    }
+    .mobiles > div:nth-of-type(1) {
+        top: -360px;
+        width: 260px;
+        height: 225px;
+        left: calc(50% - 130px);
+    }
+    .mobiles {
+        height: 100px;
+        padding-top: 100px;
+    }
+    form > img:nth-of-type(2) {
+        width: 180px;
+        left: 0;
+        top: -227px;
+    }
+    form > img:nth-of-type(1) {
+        display: none;
+    }
+    .waiting h2 {
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+    form {
+        position: relative;
+        width: 280px;
+        margin: auto;
+        padding: 5px;
+    }
+    label {
+        flex-wrap: wrap;
+    }
+    #f_name {
+        margin-top: 10px;
+        padding-left: 35px;
+    }
+    .logos {
+        flex-wrap: wrap;
+    }
+    .logos > div {
+        height: 90px;
+        width: 259px;
+        margin: auto;
+    }
+    .partner {
+        height: 680px;
+    }
+}

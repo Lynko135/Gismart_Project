@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    animation: opacity 1.5s 1;
+}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+*:focus {
+    outline: none;
+}
+select {
+    cursor: pointer;
+}
+textarea {
+    resize: none;
+}
+.containerMy {
+    width: 1520px;
+    margin: 0 auto;
+    position: relative;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.jcsb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.jcse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.jcc {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.aic {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ait {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.aib {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#menu {
+    z-index: 3;
+}
+h1{
+    margin: auto;
+    font-size: 92px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    width: 1262px;
+    line-height: 108px;
+    opacity: 0;
+}
+h2 {
+    font-size: 72px;
+    margin: auto;
+    text-align: center;
+    font-weight: 800;
+    line-height: 86px;
+    letter-spacing: -0.02em;
+}
+h6 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+.header {
+    height: 905px;
+}
+.header p, .downloads p, .reviews p {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 50px;
+    width: 745px;
+    text-align: center;
+    line-height: 28px;
+    opacity: 0;
+    animation: zag 1.5s linear 1s 1 normal forwards;
+
+}
+@keyframes opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.menu {
+    height: 95px;
+}
+.menu > a > div {
+    background: url(../img/logowhite.png) no-repeat;
+    width: 172px;
+    height: 34px;
+}
+.menu li a {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 1px;
+    line-height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: -moz-linear-gradient(left, rgba(117, 190, 218, 0.0) 50%, yellow 50%);
+    background-image: -ms-linear-gradient(left, rgba(117, 190, 218, 0.0) 50%, yellow 50%);
+    background-image: -webkit-linear-gradient(left, rgba(117, 190, 218, 0.0) 50%, yellow 50%);
+    background-image: linear-gradient(to right, rgba(117, 190, 218, 0.0) 50%, yellow 50%);
+    background-position: 0;
+    background-size: 200%;
+    -webkit-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    
+}
+.menu li a:hover {
+    background-position: -100%;
+    color: black;
+}
+
+.subMenu {
+    height: 0; 
+    overflow: hidden; 
+    opacity: 0; 
+    transition: all 0.5s ease-in;
+    padding-top: 10px;
+}
+.menuItem {
+    position: relative;
+}
+.achievements {
+    height: 1111px;
+    background: #FAFAFA;
+}
+.achievements h2 {
+    margin-bottom: 120px;
+    padding-top: 140px;
+}
+.circle {
+    position: relative;
+    /* width: 506px; */
+    height: 258px;
+    fill: none;
+}
+.circle svg {
+    width: 258px;
+    height: 258px;
+}
+.circle .bg {
+    fill: none;
+    stroke-width: 22px;
+    stroke: #DCDCDC;
+}
+@keyframes circle {
+    from {
+      stroke-dashoffset: 741.04;
+    }
+    to {
+      stroke-dashoffset: 260;
+    }
+}
+@keyframes circle1 {
+    from {
+      stroke-dashoffset: 741.04;
+    }
+    to {
+      stroke-dashoffset: 120;
+    }
+}
+@keyframes circle2 {
+    from {
+      stroke-dashoffset: 741.04;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+.anim1 .progress {
+    fill: none;
+    stroke-width: 22px;
+    stroke: #FFC336;
+    stroke-linecap: round;
+    stroke-dasharray: 741.04;
+    stroke-dashoffset: 260;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+            -webkit-animation: circle 2s ease-in-out;
+            -moz-animation: circle 2s ease-in-out;
+            -o-animation: circle 2s ease-in-out;
+            -ms-animation: circle 2s ease-in-out;
+            animation: circle 2s ease-in-out;
+}
+.anim2 .progress1 {
+    fill: none;
+    stroke-width: 22px;
+    stroke: #FFC336;
+    stroke-linecap: round;
+    stroke-dasharray: 741.04;
+    stroke-dashoffset: 120;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+            -webkit-animation: circle1 2s ease-in-out;
+            -moz-animation: circle1 2s ease-in-out;
+            -o-animation: circle1 2s ease-in-out;
+            -ms-animation: circle1 2s ease-in-out;
+            animation: circle1 2s ease-in-out;
+}
+.anim3 .progress2 {
+    fill: none;
+    stroke-width: 22px;
+    stroke: #FFC336;
+    stroke-linecap: round;
+    stroke-dasharray: 741.04;
+    stroke-dashoffset: 0;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+            -webkit-animation: circle2 2s ease-in-out;
+            -moz-animation: circle2 2s ease-in-out;
+            -o-animation: circle2 2s ease-in-out;
+            -ms-animation: circle2 2s ease-in-out;
+            animation: circle2 2s ease-in-out;
+}
+.count {
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    left: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 86px;
+}
+.smallCircleText {
+    position: absolute;
+    width: 100%;
+    top: 165px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.achievements .containerMy .jcsb:nth-of-type(1) {
+    padding: 0 124px 0 124px;
+}
+.achievements .containerMy .jcsb:nth-of-type(2) {
+    padding: 0 85px 0 85px;
+}
+#nimbersAnim {
+    transition-duration: 3s;
+    padding-top: 200px;
+    opacity: 0;
+}
+#nimbers p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 15px;
+}
+#nimbers div {
+    text-align: center;
+}
+.getAppOrGoogle {
+    transition: .3s;
+}
+.getAppOrGoogle:hover {
+    opacity: .5;
+}
+.discover {
+    height: 542px;
+    background: #FAFAFA;
+    padding-top: 140px;
+}
+.discover h2 {
+    margin-bottom: 64px;
+}
+.discover > div > div {
+    text-align: center;
+}
+.discover input {
+    width: 234px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 34px;
+    
+}
+input[type|="button"], input[type|="submit"]  {
+    background: #FFE711;
+    outline: 0 !important;
+    border-radius: 32px;
+    font-weight: bold;
+    border: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+input[type|="button"]:hover, input[type|="submit"]:hover {
+    opacity: .7;
+    -webkit-box-shadow: 2px 1px 14px 6px rgba(0,0,0,0.59); 
+    box-shadow: 2px 1px 14px 6px rgba(0,0,0,0.59)
+}
+input[type|="button"]:active, input[type|="submit"]:active {
+    transform: scale(.9);
+    transition: .2;
+}
+.footer {
+    height: 362px;
+    padding-top: 72px;
+}
+#footerlogo {
+    background: url(../img/logoBlack.png) no-repeat;
+    width: 172px;
+    height: 34px;
+    padding-bottom: 60px;
+}
+.footer ul:nth-of-type(1){
+    width: 726px;
+}
+.footer ul:nth-of-type(2) {
+    width: 276px;
+}
+.footer ul:nth-of-type(2) > li:nth-of-type(1){
+    margin-right: 30px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333333;
+}
+.footer ul:nth-of-type(1) > li > a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    opacity: 0.32;
+    transition: .5s;
+}
+.footer ul:nth-of-type(1) > li > a:hover {
+    opacity: 1;
+}
+.footer ul:nth-of-type(2) > li:nth-of-type(1n+2) {
+    transition: .5s;
+    border-radius: 20px;
+}
+.footer ul:nth-of-type(2) > li:nth-of-type(1n+2):hover {
+    background: yellow;
+    border: transparent;
+    box-shadow: 0px 0px 20px 3px yellow;
+}
+.footer ul:nth-of-type(2) > li:nth-of-type(1n+2):active {
+    background: yellow;
+    transform: scale(.9);
+    border: transparent;
+    box-shadow: 0px 0px 20px 3px yellow;
+}
+.bottom {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    opacity: 0.32;
+}
+.down {
+    margin-bottom: 80px;
+}
+.owl-theme .owl-nav {
+    position: relative;
+}
+.owl-theme .owl-dots .owl-dot {
+    transform: scale(.7);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: black;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: yellow;
+    text-decoration: none;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    line-height: 35px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    padding-bottom: 4px!important;
+    font-size: 30px;
+    border: 1px solid #ACACAC;
+    color: #ACACAC;
+}
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover {
+    border: transparent;
+    color: black;
+}
+.owl-dots {
+    position: absolute;
+}
+#menu{
+    transition: .5s;
+    width: 525px;
+}
+
+.menu_wrap{
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+#open{
+    width: 24px;
+    height: 24px;
+    background: url(../img/Control.svg);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+#close{
+    width: 24px;
+    height: 24px;
+    background: url(../img/Control.svg);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+#open:hover, #close:hover {
+    transform: scale(1.2);
+}
+#open:active, #close:active {
+    transform: scale(.8);
+}
+.owl-theme .owl-nav [class*=owl-]:active {
+    background: yellow;
+    text-decoration: none;
+    transform: scale(.8);
+    transition: .1s;
+}
+@keyframes zag {
+    from {opacity: 0; padding-top: 50px;}
+    to {opacity: 1; padding-top: 0px;}
+}
+.zagAnim {
+    -webkit-animation: zag 1.5s linear 1s 1 normal forwards;
+    -moz-animation: zag 1.5s linear 1s 1 normal forwards;
+    -o-animation: zag 1.5s linear 1s 1 normal forwards;
+    -ms-animation: zag 1.5s linear 1s 1 normal forwards;
+    animation: zag 1.5s linear 1s 1 normal forwards;
+}

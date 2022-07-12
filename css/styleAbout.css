@@ -1,0 +1,356 @@
+.header {
+    background: url(../img/backgroundAboutapprove.jpg) no-repeat center;
+    background-size: cover;
+}
+.header h1, .header p, .menu li a {
+    color: #2C2F46;
+}
+.menu > a > div {
+    background: url(../img/logoBlack.png) no-repeat;
+}
+#open, #close {
+    background: url(../img/burgerBlack.svg);
+}
+h1 {
+    margin-top: 204px;
+    height: 340px;
+}
+.aboutGis {
+    height: 1516px;
+}
+.aboutGis h2 {
+    padding-top: 140px;
+    margin-bottom: 96px;
+}
+.line {
+    height: 330px;
+    margin-bottom: 22px;
+}
+.line img {
+    width: 357px;
+}
+.line > div {
+    width: 50%;
+    padding: 77px 0 0 63px;
+}
+.line:nth-of-type(2) > div {
+    padding: 77px 63px 0 0;
+}
+.line h5 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+    margin-bottom: 15px;
+    transition-duration: .5s;
+    opacity: 0;
+    padding-top: 30px;
+}
+.line p {
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 30px;
+    transition-duration: .5s;
+    transition-delay: .5s;
+    opacity: 0;
+}
+.block {
+    border-radius: 8px;
+    background: rgba(248, 249, 251, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 561px;
+    opacity: 0;
+}
+.center {
+    text-align: center;
+}
+.timeLine {
+    height: 6109px;
+}
+.timeLine h2 {
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+.timeLine .containerMy {
+    position: relative;
+}
+#smile {
+    width: 532px;
+    position: absolute;
+    left: -114px;
+    top: 111px;
+}
+#cloud, #cloud2, #cloud3 {
+    width: 404px;
+    position: absolute;
+}
+#cloud {
+    right: 0px;
+    top: 358px;
+}
+.timeLine h3 {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.timeLine h3 > span {
+    color: #FFC336;
+}
+.center, .withIcons p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;  
+}
+.withIcons p {
+    padding-right: 45px;
+}
+.block center {
+    height: 96px;
+}
+.center:nth-of-type(1), .timeLine > div > div:nth-of-type(2), #down {
+    width: 745px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.timeLine > div > div:nth-of-type(2) {
+    padding-right: 185px;
+}
+h6 {
+    text-align: left;
+}
+.withIcons {
+    height: 137px;
+    width: 561px;
+}
+.withIcons p, h6 {
+    margin-left: 140px;
+}
+.withIcons img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.right, .left {
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+}
+#time {
+    position: relative;
+    margin-top: 34px;
+    margin-bottom: 166px;
+}
+#time > div:nth-of-type(1) {
+    background: url(../img/play.png) center no-repeat;
+    height: 560px;
+    width: 662px;
+    position: absolute;
+}
+.right > div:nth-of-type(1), .left > div:nth-of-type(1) {
+    height: 560px;
+}
+.year {
+    font-weight: 800;
+    font-size: 92px;
+    line-height: 108px;    
+    letter-spacing: -0.01em;
+    margin-bottom: 35px;
+}
+.left .year {
+    text-align: right;
+}
+.right .year {
+    text-align: left;
+}
+.right > div:nth-of-type(2) {
+    background: url(../img/rightPiano.png) no-repeat bottom;
+    height: 500px;
+    width: 745px;
+}
+.right > div {
+    padding-left: 64px;
+}
+.left > div {
+    padding-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.left > div:nth-of-type(2) {
+    padding-top: 63px;
+}
+.left {
+    border-right: 5px dotted #DCDCDC;
+}
+.left .year {
+    justify-content: flex-end;
+    position: relative;
+}
+.left .year > img {
+    position: absolute;
+    left: 287px;
+}
+.right .year {
+    position: relative;
+}
+.right .year > img {
+    position: absolute;
+    left: -84px;
+}
+.left > div:nth-of-type(3) {
+    margin-top: 303px;
+    background: url(../img/playTimeline.png) no-repeat bottom right;
+    height: 500px;
+    position: relative;
+}
+.right > div:nth-of-type(3) {
+    margin-top: 160px;
+}
+#icon1, #icon2 {
+    position: relative;
+}
+#icon1 > img {
+    position: absolute;
+    top: -5%;
+    left: 90%;
+}
+.left > div:nth-of-type(4) {
+    margin-top: 147px;
+    position: relative;
+}
+#icon2 > img {
+    position: absolute;
+    top: 15%;
+    left: -9%;
+}
+.right > div:nth-of-type(4) {
+    height: 745px;
+    background: url(../img/finish.png) no-repeat bottom left;
+    margin-left: 64px;
+}
+.right > div:nth-of-type(5) {
+    position: relative;
+    margin-top: 69px;
+    background: url(../img/device.png) no-repeat right top;
+    background-size: 263px auto;
+}
+.right > div:nth-of-type(5) > img {
+    position: absolute;
+    left: 44%;
+    z-index: -1;
+}
+.left > div:nth-of-type(5) {
+    margin-top: 596px;
+    padding-top: 372px;
+    position: relative;
+}
+.left > div:nth-of-type(5) > img {
+    width: 960px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: -203px;
+}
+#cloud2 {
+    left: -120px;
+    top: -120px;
+}
+.left > div:nth-of-type(6) {
+    height: 266px;
+}
+#time > div:nth-of-type(4) {
+    width: 276px;
+    height: 276px;
+    position: absolute;
+    top: 4120px;
+    left: calc(50% - 141px);
+    
+}
+#time > div:nth-of-type(4) > div:nth-of-type(1) {
+    height: 276px;
+    background: url(../img/eclipse1.png) no-repeat center;
+    animation: orCircle 2s linear 0.5s infinite normal forwards;
+}
+#time > div:nth-of-type(4) > div:nth-of-type(2) {
+    height: 192px;
+    width: 192px;
+    background: url(../img/ellipse2.png) no-repeat center;
+    position: absolute;
+    z-index: 2;
+    top: calc(50% - 96px);
+    left: calc(50% - 96px);
+    animation: orCircle1 2s linear 0.5s infinite normal forwards;
+}
+#time > div:nth-of-type(4) > div:nth-of-type(3) {
+    height: 108px;
+    width: 108px;
+    background: url(../img/ellipse3.png) no-repeat center;
+    z-index: 3;
+    position: absolute;
+    top: calc(50% - 54px);
+    left: calc(50% - 54px);
+    animation: orCircle2 2s linear 0.5s infinite normal forwards;
+}
+#time > div:nth-of-type(4) > div:nth-of-type(4) {
+    background: url(../img/eclipse4.png) no-repeat center;
+    height: 24px;
+    width: 24px;
+    z-index: 4;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+}
+#timeBottom {
+    height: 571px;
+    margin-top: 58px;
+    background: url(../img/jump.png) no-repeat center;
+    position: relative;
+}
+#smile1 {
+    width: 532px;
+    position: absolute;
+    left: 122px;
+    top: -174px;
+}
+#cloud3 {
+    top: -125px;
+    right: 138px;
+}
+@keyframes orCircle {
+    from {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
+    to {opacity: 0;}
+}
+@keyframes orCircle1 {
+    from {opacity: 0;}
+    12.5% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes orCircle2 {
+    from {opacity: 0;}
+    12.5% {opacity: 1;}
+    50% {opacity: 1;}
+    to {opacity: 0;}
+}
+.blockAnimation {
+    animation-name: opas, scale;
+    animation-duration: .5s, .7s;
+    animation-fill-mode: forwards, forwards;
+    animation-delay: .3s, .3s;
+}
+@keyframes opas {
+    form {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes scale {
+    from {transform:scale(.1);}
+    to {transform:scale(1);}
+}

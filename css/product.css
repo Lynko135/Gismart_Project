@@ -1,0 +1,171 @@
+.header {
+    background: url(../img/imageSoundle.png) center top no-repeat;
+    background-size: 20%;
+}
+.back {
+    background: url(../img/imageSoundle.png) right no-repeat;
+    transition: 2.5s;
+    background-size: 70%;
+}
+h1 {
+    text-align: left;
+    opacity: 1;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    background: url(../img/soundleLogo.png);
+    margin: 122px 0 40px 129px;
+}
+#backimg {
+    background: url(../img/SoundleBack.jpg) center no-repeat;
+    background-size: cover;
+}
+.header .containerMy > div:nth-of-type(3){
+    margin: 10px 0 20px 129px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FDFDFD;
+    opacity: 0;
+}
+.header .containerMy > p {
+    text-align: left;
+    margin: 0 0 0 129px;
+    width: 550px;
+}
+.ourProducts h2 {
+    padding-top: 140px;
+    margin-bottom: 64px;
+}
+.ourProducts ul {
+    width: 404px;
+    margin: auto;
+}
+.ourProducts ul li input {
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+    color: #DCDCDC;
+    transition: .5s;
+    border-radius: 0px; 
+}
+.ourProducts ul li input:hover {
+    color: #FFC336;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.ourProducts ul li input:focus {
+    color: #FFC336;
+    border: none;
+}
+.apps, .games {
+    display: none;
+}
+.all, .apps, .games {
+    margin: auto;
+    padding-top: 62px;
+    height: 775px;
+    overflow: hidden;
+    transition: 2s;
+}
+.prElem {
+    margin-bottom: 80px;
+}
+.prElem > div:nth-of-type(1) {
+    width: 720px;
+    height: 500px;
+    margin-bottom: 30px;
+    
+}
+.ourProducts h5 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+}
+.prElem > div:nth-of-type(2) > a >:nth-of-type(1) {
+    margin-right: 10px;
+}
+.prElem a {
+    transition: .3s;
+}
+.prElem a:hover {
+    opacity: .5;
+}
+#domino {
+    background: url(../img/DominoSmash.jpg) no-repeat center;
+}
+#goal {
+    background: url(../img/Goal.jpg) no-repeat center;
+}
+#sound {
+    background: url(../img/Soundle.jpg) no-repeat center;
+}
+#piano {
+    background: url(../img/Piano.jpg) no-repeat center;
+}
+#zen {
+    background: url(../img/MuzicZen.jpg) no-repeat center;
+}
+#hello {
+    background: url(../img/HelloPiano.jpg) no-repeat center;
+}
+#domino, #goal, #sound, #zen, #hello, #piano{
+    background-size: 100%;
+    border-radius: 20px;
+    transition: .5s;
+}
+#domino:hover, #goal:hover, #sound:hover, #zen:hover, #hello:hover, #piano:hover {
+    background-size: 110%;
+    cursor: pointer;
+}
+#more {
+    position: absolute;
+    left: calc(50% - 114px);
+}
+#more input {
+    width: 228px;
+    height: 52px;
+}
+.ourProducts .containerMy > div:last-of-type {
+    height: 140px;
+}
+.ready {
+    height: 800px;
+    background: url(../img/readyBack.jpg) no-repeat center;
+    background-size: cover;
+}
+#shadow {
+    background-color: rgba(0,0,26,0.19);
+    height: 800px;
+}
+.ready h2 {
+    padding-top: 244px;
+    color: white;
+}
+.ready p {
+    width: 744px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: white; 
+}
+.ready .containerMy > div {
+    text-align: center;
+}
+.ready input {
+    width: 288px;
+    height: 62px;
+}
